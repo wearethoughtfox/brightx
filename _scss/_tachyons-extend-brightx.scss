@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .brightx h1,
 .brightx h2,
 .brightx h3,
@@ -240,5 +245,10 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.logo-bg {
+  background: url(/images/logo-outline.svg) no-repeat 50% 50%;
+  background-size: cover;
 }
 

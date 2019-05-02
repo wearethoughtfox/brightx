@@ -4,10 +4,10 @@ highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 
 # Setup
-title:               Ashbright
-description:         'We are strategic communications firm that provides counsel to governments, companies and successful individuals.'
+title:               Bright X
+description:         'Bright X is a pop-up creative newsroom producing video, photography and text to record and amplify defining moments of professional success.'
 tagline:             Strategic communication
-url:                 https://www.ashbright.com
+url:                 https://www.brightx.media
 logo:                /images/LOGO-RGB.png
 tel:                 +971502206916
 email:               ta@ashbright.com
@@ -19,14 +19,6 @@ address:
   postcode:          712472
   country:           UAE
 
-collections:
-  situations:
-    output: true
-    permalink: /:collection/:name
-  bios:
-    output: true
-    permalink: /:name
-
 plugins:
   - jekyll-seo-tag
 
@@ -36,3 +28,7 @@ defaults:
       path: ""
     values:
       image: /images/LOGO-RGB.png
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename/
