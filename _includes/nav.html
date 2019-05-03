@@ -1,0 +1,13 @@
+<nav class="db dt-l bg-brightxred w-100 pv4 ph3-l">
+  <div class="db dtc-l v-mid v-bottom-l w-100 w-75-l tc tr-l ph1">
+
+    {% for link in site.data.nav.navigation %}
+       {% assign current = nil %}
+        {% if page.url contains link.url %}
+            {% assign current = 'current b--primary' %}
+        {% endif %}
+        <a class="brightx-sans no-underline white f6 f5-l dib mr3 mr4-l ttu {{ current }}" href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a>
+      {% endfor %}
+
+  </div>
+</nav>

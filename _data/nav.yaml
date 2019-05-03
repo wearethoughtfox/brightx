@@ -1,0 +1,11 @@
+navigation:
+ - title: About
+   url: /about/
+ - title: Services
+   url: /services/
+ - title: Events
+   url: /Events/
+ - title: Contact
+   url: /contact/
+ - title: Ashbright
+   url: /ashbright/
