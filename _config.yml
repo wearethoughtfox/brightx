@@ -1,7 +1,6 @@
 name: Ashbright
 markdown: kramdown
 highlighter: rouge
-exclude: ["node_modules", "gulpfile.js", "package.json"]
 
 # Setup
 title:               Bright X
@@ -21,6 +20,11 @@ address:
 
 plugins:
   - jekyll-seo-tag
+
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _scss
+  style:            :compressed
 
 # Defaults
 defaults:

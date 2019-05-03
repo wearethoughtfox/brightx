@@ -1,9 +1,3 @@
-## Usage
-This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting etc etc.
-
-```shell
-$ gulp
-```
 
 ## Jekyll
 As this is just a Jekyll project, you can use any of the commands listed in their [docs](http://jekyllrb.com/docs/usage/)
@@ -28,9 +22,6 @@ To install on Netlify, follow these instructions:
 - Add Netlify identity widget as a snippet in Build & Deploy > Post processing
 
 ## Based on jekyll-gulp-sass-browser-sync and Tachyons
-- https://medium.com/@simonswiss/full-re-write-in-10-days-with-tachyons-and-functional-css-a-case-study-part-4-b565745ca1e5
-- https://github.com/shakyShane/jekyll-gulp-sass-browser-sync
-- https://aaronlasseigne.com/2016/02/03/using-gulp-with-jekyll/
 
 - Use variables to customise
 - Don't touch the main Tachyons folder
@@ -56,7 +47,6 @@ https://www.shareicon.net/arrow-up-app-ui-essential-884106
 
 ## To do
 - Netlify
-- Image gulp process workflow
 - Accessibility: http://a11yproject.com/checklist.html / http://pa11y.org
 - Get permalinks working locally - no .html
 
