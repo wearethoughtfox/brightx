@@ -1,11 +1,9 @@
 navigation:
  - title: About
-   url: /about/
+   url: /#about
  - title: Services
    url: /services/
  - title: Events
    url: /events/
  - title: Contact
-   url: /contact/
- - title: Ashbright
-   url: https://ashbright.com
+   url: #contact
