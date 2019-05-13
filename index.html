@@ -4,7 +4,8 @@ title: Bright X
 description: Bright X is a pop-up creative newsroom producing video, photography and text to record and amplify defining moments of professional success.
 type: home
 ---
- {% include nav.html %}
+
+{% include nav.html %}
 
 <section class="bg-brightxred vh-75-l flex-l items-end" data-aos="fade-up">
   <div class="ph3 ph4-ns ph5-l pt3 pb5 center cf">
@@ -19,13 +20,12 @@ type: home
 <section class="center pv4 pb4 pv5-ns cf bg-logo" id="about">
   <div class="fl w-100 w-20-l">&nbsp;</div>
   <div class="fl w-100 w-80-l">
-    <p class="f6 pt3 pt5-l pl3">
+    <p class="f6 f4-l pt3 pt5-l pl3">
       About
     </p>
     <div class="flex pt3 pb3">
-      <h2 class="f2 f1-l ph2 ph4-l ttu tracked-tight vertical-text">Applify your<br> <span class="fw3">success</span></h2>
+      <h2 class="f2 f1-l ph2 pl4-l ttu tracked-tight vertical-text">Applify your<br> <span class="fw3">success</span></h2>
       <p class="f3 f2-l mt0 ph4-l pr1 lh-copy measure" data-aos="fade-up">Bright X is a pop-up creative newsroom that produces high quality video, photography and text for distribution across your social media channels. </p>
-
     </div>
    </div>
 </section>
@@ -33,15 +33,15 @@ type: home
 <section id="services" class="pt4 pt0-l pb4 pt0-l bt b--black-10 bg-brightxdarkgrey white cb">
   <div class="cf mw9 ph3 ph4-l pb5-l center">
   <div class="fr w-100 w-80-l" >
-    <p class="f6 pt3 pt5-l">
+    <p class="f6 f4-l pt3 pt5-l">
       Services
     </p>
-    <div class="f3 ttu tracked-tight pb4">
+    <div class="f3 f2-l ttu tracked-tight pb4">
       <h2 class="mt2 white">Content is<br>
       <span class="fw3 white">king</span></h2>
     </div>
   </div>
-  <div class="f4 lh-copy fl w-100 mb4-ns">
+  <div class="f4 f3-l lh-copy fl w-100 mb4-ns">
     <div class="fl-ns w-100 w-20-l pr3-m pr5-l">
       <p class="dashed-bullet mt0 mb2">
         Short video production and editing
@@ -69,35 +69,42 @@ type: home
     </div>
   </div>
 
-  <a class="brightx-sans f5 f3-ns link dim ph4 ph4-l pv3 mv4 mr3-ns dib white bg-black ttu tracked bg-brightxred" href="{{ site.baseurl }}/services/">Find out more</a>
+  <div class="fr w-100 w-80-l" >
+    <a class="brightx-sans f5 f4-l link dim ph4 ph4-l pv3 mv4 mr3-ns dib white bg-black ttu tracked bg-brightxred" href="{{ site.baseurl }}/services/">Find out more</a>
+  </div>
 
   </div>
 </section>
 
 <section class="bg-brightxred white center pv4 pb4 pv5-ns cf">
-  <div class="fl w-100 w-20-l">&nbsp;</div>
-   <p class="f6 pt3 pt5-l pl3">
-      Events
-    </p>
+    <div class="fl w-100 w-20-l">&nbsp;</div>
     <div class="fl w-100 w-80-l pt3 pb3">
+      <p class="f6 f4-l pt3 pt5-l pl3">
+        Events
+      </p>
       <div class="flex">
-        <h2 class="f2 f1-l ph2 ph4-l ttu tracked-tight vertical-text white">Community is<br> <span class="fw3">queen</span></h2>
-        <p class="f3 f2-l mt0 ph2 pr1 ph4-l lh-copy measure" data-aos="fade-up">Whether you are staging events at Davos, Cannes or any other global hub, Bright X ensures you engage with your worldwide audiences at those critical moments with beautiful content delivered live through your social channels.</p>
+        <h2 class="f2 f1-l ph2 pl4-l ttu tracked-tight vertical-text white">Community is<br> <span class="fw3">queen</span></h2>
+        <p class="f3 f2-l mt0 ph1 pr1 ph4-l lh-copy measure" data-aos="fade-up">Whether you are staging events at Davos, Cannes or any other global hub, Bright X ensures you engage with your worldwide audiences at those critical moments with beautiful content delivered live through your social channels.</p>
       </div>
+      <a class="brightx-sans f5 f4-l link dim ph4 ph4-l pv3 mv4 mr3-ns dib brightxred ttu tracked bg-white ml3" href="{{ site.baseurl }}/events/">Find out more</a>
     </div>
-   <a class="brightx-sans f5 f3-ns link dim ph4 ph4-l pv3 mv4 mr3-ns dib brightxred ttu tracked bg-white ml3" href="{{ site.baseurl }}/events/">Find out more</a>
+
 </section>
 
 <section>
-  <div class="relative di">
-    <img src="{{ site.baseurl }}/images/brightx-davos-square.jpg" alt="BrightX" >
-    <img class="absolute left-1 bottom-0 h6" src="{{ site.baseurl }}/images/davos-white-v.svg" alt="Davos">
-  </div>
-  <div class="ph3 pt2 pb5">
-    <h3 class="f3 f-sub-ns fw1 mt1 pt2 mb0">Bright X Creative Media at Davos <span class="fw6"><span class="brightxred">/</span> .2020</span></h3>
-    <p class="f4 lh-copy measure">The best way to maximise the return on your investment in Davos.</p>
-    <a class="brightx-sans f5 f3-ns link dim ph4 ph4-l pv3 mr3-ns dib white bg-black ttu tracked bg-brightxred" href="{{ site.baseurl }}/events/davos">Find out more</a>
-  </div>
+  <div class="flex-l">
+    <div class="relative di w-50-l">
+      <img src="{{ site.baseurl }}/images/brightx-davos-square.jpg" alt="BrightX" >
+      <img class="absolute left-1 bottom-0 bottom-2-l h-75" src="{{ site.baseurl }}/images/davos-white-v.svg" alt="Davos">
+    </div>
+    <div class="ph3 pt2 pb5 w-50-l flex-l items-center-l">
+      <div class="ph4-l">
+        <h3 class="f3 f2-l f-sub-ns fw1 mt1 pt2 mb0">Bright X Creative Media at Davos <span class="fw6"><span class="brightxred">/</span> .2020</span></h3>
+        <p class="f4 f3-l lh-copy measure">The best way to maximise the return on your investment in Davos.</p>
+        <a class="brightx-sans f5 f4-l link dim ph4 ph4-l pv3 mr3-ns dib white bg-black ttu tracked bg-brightxred" href="{{ site.baseurl }}/events/davos">Find out more</a>
+       </div>
+    </div>
+   </div>
 </section>
 
 
