@@ -145,6 +145,16 @@ body {
   z-index: -1;
 }
 
-.h6 { height: 20rem; }
+.h6 {
+  height: 20rem;
+}
 
-a.current { text-decoration: underline }
+a.current {
+  text-decoration: underline
+}
+
+@media #{$breakpoint-large} {
+  .bottom--4-l {
+      bottom: -4rem;
+  }
+}
