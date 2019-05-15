@@ -5,9 +5,9 @@ highlighter: rouge
 # Setup
 title:               Bright X
 description:         'Bright X is a pop-up creative newsroom producing video, photography and text to record and amplify defining moments of professional success.'
-tagline:             Strategic communication
+tagline:             A pop-up creative newsroom
 url:                 https://www.brightx.media
-logo:                /images/LOGO-RGB.png
+logo:                /images/BrightX-Logo-ColourWhiteBack-01-web.png
 tel:                 +971502206916
 email:               ta@ashbright.com
 calltoaction:        "Get in touch"
@@ -35,7 +35,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /images/LOGO-RGB.png
+      image: /images/BrightX-Logo-ColourWhiteBack-01-web.png
   - scope:
       path: '_pages'
     values:
