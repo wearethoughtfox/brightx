@@ -33,6 +33,9 @@
 @import 'colors';
 @import 'media-queries';
 
+//  Custom imports
+@import '_tachyons-extend-brightx.scss';
+
 //  Debugging
 @import 'debug-children';
 @import 'debug-grid';
